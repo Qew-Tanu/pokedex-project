@@ -15,7 +15,7 @@ const Homepage = () => {
     return (
         <div className="w-[90%] m-[auto] max-w-[1100px]">
             <div className="flex justify-center">
-                <img src="/images/logo.png" className="max-h-[80px] mt-[20px]" />
+                <img src="images/logo.png" className="max-h-[80px] mt-[20px]" />
             </div>
             <SearchForm />
             {fetchpokemon.loading && (<div className="h-[600px] flex justify-center items-center">

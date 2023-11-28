@@ -35,7 +35,7 @@ const Detailpage = () => {
     return (
         <div className="w-[90%] m-[auto] max-w-[1100px]">
             <div className="flex justify-center">
-                <img src="/images/logo.png" className="max-h-[80px] mt-[20px]" />
+                <img src="images/logo.png" className="max-h-[80px] mt-[20px]" />
             </div>
             <div className="flex justify-end">
                 <Link to={"/"} className=" bg-[#14234d] pt-1 pb-1 pl-5 pr-5 rounded-[30px] flex justify-end text-white text-[30px]">Back</Link>
